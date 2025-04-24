@@ -2,7 +2,8 @@
 
 A modern, feature-rich **Todo List Application** built entirely with **vanilla JavaScript**, HTML, and CSS — no frameworks, no dependencies. This project demonstrates clean code architecture and responsive UI with **dark/light theme support**, real-time search, and local storage integration.
 
-> 🔗 **Live Demo:** [View Demo](https://to-do-mrankey.vercel.app/) 
+> 🔗 **Live Demo:** [View Demo](https://to-do-mrankey.vercel.app/)
+> 
 > 👨‍💻 Developed by: [Ankit Prajapati](https://github.com/MR-ANKEY)
 
 ---
