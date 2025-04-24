@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Todo List</h1>
+            <div class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </div>
+        </header>
+
+        <div class="todo-input">
+            <div class="search-container">
+                <div class="search-input-wrapper">
+                    <input type="text" id="search-input" placeholder="Search tasks..." autocomplete="off">
+                    <div id="search-suggestions" class="search-suggestions"></div>
+                </div>
+                <button id="search-button">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+            <form id="todo-form">
+                <div class="input-group">
+                    <input type="text" id="todo-name" placeholder="Task name..." autocomplete="off" required maxlength="50">
+                    <div class="char-counter"><span id="name-char-count">0</span>/50</div>
+                </div>
+                <div class="input-group">
+                    <textarea id="todo-details" placeholder="Task details..." rows="2"></textarea>
+                </div>
+                <button type="submit">
+                    <i class="fas fa-plus"></i> Add Task
+                </button>
+            </form>
+        </div>
+
+        <div class="filters">
+            <button class="filter-btn active" data-filter="all">
+                All
+                <span class="filter-count" id="total-count">0</span>
+            </button>
+            <button class="filter-btn" data-filter="active">
+                Active
+                <span class="filter-count" id="active-count">0</span>
+            </button>
+            <button class="filter-btn" data-filter="completed">
+                Completed
+                <span class="filter-count" id="completed-count">0</span>
+            </button>
+        </div>
+
+        <ul id="todo-list"></ul>
+    </div>
+
+    <!-- Task Details Modal -->
+    <div id="task-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <input type="text" id="modal-title-input" class="modal-title-input" placeholder="Task name...">
+                <button class="close-modal">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <textarea id="modal-details-input" class="modal-details-input" placeholder="Task details..."></textarea>
+            </div>
+            <div class="modal-footer">
+                <button class="modal-btn" id="modal-save">
+                    <i class="fas fa-save"></i> Save
+                </button>
+                <button class="modal-btn" id="modal-delete">
+                    <i class="fas fa-trash"></i> Delete
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
