@@ -32,7 +32,7 @@ A modern, feature-rich **Todo List Application** built entirely with **vanilla J
 ### All Tasks View
 ![All Tasks](assests/AllTasks.png)
 
-### Task Details Modal
+### Task Details Pop Up Window
 ![Task Details](assests/TaskPopUp.png)
 
 ---
