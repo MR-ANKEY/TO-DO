@@ -24,6 +24,19 @@ A modern, feature-rich **Todo List Application** built entirely with **vanilla J
 
 ---
 
+## 📸 Screenshots
+
+### Home Screen
+![Home Screen](assests/HomeScreen.png)
+
+### All Tasks View
+![All Tasks](assests/AllTasks.png)
+
+### Task Details Modal
+![Task Details](assests/TaskPopUp.png)
+
+---
+
 ## 📂 Project Structure
 
 ```
@@ -121,4 +134,4 @@ This project is open-sourced under the MIT License.
 
 ---
 
-Made with ❤️ by [Ankit Prajapati] 
+Made with ❤️ by [Ankit Prajapati]
